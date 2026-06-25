@@ -1,0 +1,17 @@
+
+
+@import "tailwindcss";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /* font sizes */
+    --h1: 70px;
+    --h2: 50px;
+    --h3: 40px;
+    --h4: 30px;
+    --h5: 28px;
+    --h6: 15px;
+}
