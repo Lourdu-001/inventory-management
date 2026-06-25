@@ -62,7 +62,7 @@ export default function RealLifeProblem() {
               </div>
 
               {/* Floating Top Left Product Card */}
-              <div className="absolute md:-left-22 -left-2 -top-14 flex md:h-60 md:w-66 w-26 h-26 md:px-0 px-4 items-center justify-center rounded-2xl bg-white shadow-xl">
+              <div className="absolute lg:-left-22 -left-2 -top-14 flex md:h-60 md:w-66 w-26 h-26 md:px-0 px-4 items-center justify-center rounded-2xl bg-white shadow-xl">
                 {/* <div className="relative flex h-20 w-20 items-center justify-center rounded-full border-4 border-[#c2ebd4]">
                   <div className="absolute inset-1 rounded-full border-2 border-[#a4dec0]" />
 
