@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Inventory Management Landing Page
 
-## Getting Started
+A modern, responsive landing page built with Next.js, Tailwind CSS, and Framer Motion based on the provided Figma design.
 
-First, run the development server:
+## Features
+
+* Responsive design for Desktop, Tablet, and Mobile
+* Component-based architecture
+* SEO-friendly structure
+* Smooth animations and transitions using Framer Motion
+* Accessible and scalable UI components
+* Optimized image handling with Next.js
+* Clean and maintainable codebase
+
+## Tech Stack
+
+* Next.js 15
+* React 19
+* Tailwind CSS
+* Framer Motion
+* React Icons
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd <project-folder>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Production Build
 
-## Learn More
+Create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+app/
+│
+├── page.tsx
+├── layout.tsx
+├── globals.css
+│
+components/
+│
+├── layout/
+│   ├── Header.tsx
+│   └── Footer.tsx
+│
+├── sections/
+│   ├── Hero.tsx
+│   ├── Clients.tsx
+│   ├── Problems.tsx
+│   ├── Workflow.tsx
+│   ├── UomSetup.tsx
+│   ├── RealLife.tsx
+│   ├── ProcessFlow.tsx
+│   └── Benefits.tsx
+│
+└── ui/
+    ├── Button.tsx
+    ├── Card.tsx
+    ├── Container.tsx
+    └── SectionHeading.tsx
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Animations
+
+The project uses Framer Motion to provide:
+
+* Fade-in effects
+* Slide-up animations
+* Hover interactions
+* Button transitions
+* Scroll-triggered section reveals
+
+## Responsive Design
+
+The page is optimized for:
+
+* Desktop
+* Tablet
+* Mobile
+
+Layouts adapt using Tailwind CSS responsive utilities to ensure consistent spacing and usability across devices.
+
+## Accessibility
+
+* Semantic HTML structure
+* Descriptive image alt attributes
+* Keyboard-accessible navigation
+* Proper color contrast and readable typography
+
+## Deployment
+
+The project can be deployed on Vercel:
+
+```bash
+npm run build
+```
+
+Deploy using the Vercel dashboard or CLI.
+
+## Author
+
+Lourdushelton
+
+Frontend / Web Developer
