@@ -1,4 +1,4 @@
-import { Target, Gauge, ShoppingCart, RefreshCw } from 'lucide-react';
+import { StaticImageData } from "next/image";
 import Benefit1 from "../assets/images/Icons/benefits1.webp"
 import Benefit2 from "../assets/images/Icons/benefits2.webp"
 import Benefit3 from "../assets/images/Icons/benefits3.webp"
@@ -7,7 +7,7 @@ import Benefit4 from "../assets/images/Icons/benefits4.webp"
 export interface BenefitCard {
   title: string;
   description: string;
-  icon: string;
+  icon: StaticImageData;
 }
 
 export const BenefitsData: BenefitCard[] = [

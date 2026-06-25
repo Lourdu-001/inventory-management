@@ -22,7 +22,7 @@ export default function Logos() {
               key={index} 
               className="flex h-32 w-full md:max-w-[300px] items-center justify-center transition-opacity duration-200 hover:opacity-100"
             > 
-              <img src={logo.src.src} width="100%" height="100%" alt={`${logo.name} logo`} className="max-h-full max-w-full object-contain filter md:grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src={logo.pic.src} width="100%" height="100%" alt={`${logo.name} logo`} className="max-h-full max-w-full object-contain filter md:grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
           ))}
         </div>

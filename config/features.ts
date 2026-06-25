@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import Setup1 from "@/assets/images/setup1.webp"
 import Setup2 from "@/assets/images/setup2.webp"
 import Setup3 from "@/assets/images/setup3.webp"
@@ -9,7 +10,7 @@ export interface UOMCard {
   textColor: string;
   subtextColor: string;
   shadowColor: string;
-  src: string;
+  src: StaticImageData;
   type: "truck" | "normal" | "advance";
 }
 

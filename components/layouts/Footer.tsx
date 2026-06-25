@@ -1,7 +1,5 @@
 "use client";
 import { motion } from 'framer-motion';
-import React from 'react';
-import { Linkedin, Facebook, Youtube } from 'lucide-react';
 import { SupportLinks } from '@/config/footer';
 import FooterLogo from "@/assets/images/footer-logo.webp"
 import FooterMini from "@/assets/images/footer.webp"
@@ -103,7 +101,7 @@ export default function Footer() {
           
           {/* Giant Dark Decorative Watermark Logo */}
           <div className="text-4xl font-extrabold tracking-tight select-none md:text-5xl">
-            <img src={FooterLogo.src} alt="" widht="" height="" />
+            <img src={FooterLogo.src} alt="site logo" width="100%" height="100%" />
           </div>
 
           {/* Legal Copyright Disclaimer */}
